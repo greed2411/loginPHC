@@ -18,6 +18,8 @@ Log onto VIT Wifi using python script and your credentials
         'NoWayThisIsMyPwd6969' with your password.
    iii. Run the script `login.py` using IDLE or  via terminal `python3 login.py` in linux / macOS machine or via command prompt on a Windows machine.
   
+#### Run the `iii` step every time you want to login.
+
 #### Assumptions
   1. Assumes your laptop is connected to either VIT5G or VIT2.4G
   2. Assumes you have python3 installed and have pip3 or pip and requests.
