@@ -25,8 +25,8 @@ def logon():
             print('Successfully Logged in.')
             print('Opening Github profile ...')
 
-            # Set your favorite page instead of 'https://github.com/Jaiimmortal'
-            webbrowser.open_new('https://github.com/Jaiimmortal')
+            # Set your favorite page instead of 'https://github.com/greed2411'
+            webbrowser.open_new('https://github.com/greed2411')
 
     except Exception:
         
