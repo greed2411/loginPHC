@@ -2,7 +2,7 @@ import requests
 import webbrowser
 
 def logon():
-    
+
     try:
 
         with requests.Session() as c :
@@ -18,7 +18,7 @@ def logon():
             c.get(url)
             login_data = dict(userId = USERNAME, password = PASSWORD, serviceName = 'ProntoAuthentication', Submit22 = 'Login')
             c.post(url, data = login_data)
-            
+
             print('Your credentials has been posted ...')
             page = c.get('http://phc.prontonetworks.com/cgi-bin/authlogin?URI=http://go.microsoft.com/fwlink/').text
 
@@ -29,10 +29,11 @@ def logon():
             webbrowser.open_new('https://github.com/greed2411')
 
     except Exception:
-        
+
         print('Sorry couldn\'t connect with your Wi-Fi, make sure you are connected.')
 
 
 if __name__ == '__main__':
 
     logon()
+    quit()
